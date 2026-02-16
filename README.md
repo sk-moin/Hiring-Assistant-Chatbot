@@ -132,16 +132,16 @@ Every time code is pushed to GitHub, AWS automatically builds and deploys the ch
 
 * 1. Prepare project
 
-    Ensure repository contains:
-    
-    app.py
-    requirements.txt
-    Procfile
-    .gitignore
-    
-    Create a Procfile:
-    
-    web: streamlit run app.py --server.port 8080 --server.address 0.0.0.0
+        Ensure repository contains:
+        
+        app.py
+        requirements.txt
+        Procfile
+        .gitignore
+        
+        Create a Procfile:
+        
+        web: streamlit run app.py --server.port 8080 --server.address 0.0.0.0
 
 * 2. Create Elastic Beanstalk App
 
@@ -159,21 +159,21 @@ Every time code is pushed to GitHub, AWS automatically builds and deploys the ch
 
 * 3. Setup CodePipeline
 
-    Open AWS CodePipeline
-    
-    Create pipeline
-    
-    Source → GitHub
-    
-    Deploy → Elastic Beanstalk
-    
-    Select your application
-    
-    Now every push:
-    
-    git push origin main
-    
-    triggers automatic deployment.
+        Open AWS CodePipeline
+        
+        Create pipeline
+        
+        Source → GitHub
+        
+        Deploy → Elastic Beanstalk
+        
+        Select your application
+        
+        Now every push:
+        
+        git push origin main
+        
+        triggers automatic deployment.
 
 
 ### Result
