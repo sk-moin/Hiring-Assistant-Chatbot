@@ -135,8 +135,11 @@ Every time code is pushed to GitHub, AWS automatically builds and deploys the ch
         Ensure repository contains:
         
         app.py
+     
         requirements.txt
+     
         Procfile
+     
         .gitignore
         
         Create a Procfile:
