@@ -130,7 +130,7 @@ Every time code is pushed to GitHub, AWS automatically builds and deploys the ch
 
 ### Deployment Steps
 
-1. Prepare project
+* 1. Prepare project
 
 Ensure repository contains:
 
@@ -143,7 +143,7 @@ Create a Procfile:
 
 web: streamlit run app.py --server.port 8080 --server.address 0.0.0.0
 
-2. Create Elastic Beanstalk App
+* 2. Create Elastic Beanstalk App
 
 Open AWS Console
 
@@ -157,7 +157,7 @@ Upload repo or zip
 
 AWS generates a public URL.
 
-3. Setup CodePipeline
+* 3. Setup CodePipeline
 
 Open AWS CodePipeline
 
